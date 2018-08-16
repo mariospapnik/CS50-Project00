@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Architecture</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <link href="index.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    </head>
+
+    <body id="MyBody">
+      <!-- HEADER contains TITLE and NAVBAR -->
+      <header class="container-fluid">
+        <div id="PageTitle" class="containter"> <span id="Title"> ARCHITECTURE <span> </div>
+
+        <nav id="NavBar" class="navbar navbar-expand-lg navbar-light justify-content-center">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="row collapse navbar-collapse" id="collapsingNavbar">
+              <div id="NavUL" class="container-fluid ">
+                  <ul class="navbar-nav mr-auto justify-content-center">
+                    <li class="nav-item active">
+                        <a class="nav-link AnimateHoverOutline" href="index.html">HOME</a>
+                    </li>
+                      <li class="nav-item active">
+                          <a class="nav-link AnimateHoverOutline" href="architecture.html">ARCHITECTURE</a>
+                      </li>
+                      <li class="nav-item active">
+                          <a class="nav-link AnimateHoverOutline" href="running.html">RUNNING</a>
+                      </li>
+                      <li class="nav-item active">
+                          <a class="nav-link AnimateHoverOutline" href="info.html">INFO</a>
+                      </li>
+                  </ul>
+                </div>
+            </div>
+      </nav>
+
+      </header>
+      <!-- HEADER END -->
+
+      <!-- A BIT ABOUT THIS PAGE -->
+      <div class="container-fluid">
+            <div  id="IntroArch" class="container-fluid">
+              <p class="AnimateHoverOutline">
+                This section will try to communicate a sense<br>
+                of what I perceive as "great architecture".</p>
+            </div>
+      </div>
+
+    <!-- SOME ARCHITECTURE QUOTE -->
+      <div class="jumbotron jumbotron-fluid bg-white" style="padding:0;">
+        <div  id="Filter" class="container-fluid">
+            <p id="ArchQuote"><br>"How architecture touches us <br>
+              would be different for every individual <br>
+              as it will arise different memories, <br>
+              imagination and dream.""<br><br>
+              <span> <b> Juhani Pallasma </b>- The eyes of the skin. </span></p>
+        </div>
+      </div>
+    <!-- A BIT ABOUT ARCHITECTURE SECTION -->
+
+    <!-- THE CONTENT SECTION -->
+      <div  class="container-fluid">
+        <div id="Content" class="container-fluid">
+          <div id="RowArch" class="row equal justify-content-center">
+
+            <div class="col-lg-3 col-md-5 col-sm-8">
+              <img  src="imgs/zumthor/bruder/bruder (4).jpg" class="img-fluid">
+              <div class="centered"><h2>Peter Zumthor</h2> <p> Bruder Klaus Field Chapel, 2007</p></div>
+              <a  class="centered AnimateHoverOutline" data-toggle="lightbox" img src="imgs/zumthor/bruder/bruder (4).jpg" href="test.html"></a>
+            </div>
+
+            <div class="col-lg-3 col-md-5 col-sm-8">
+              <img  src="imgs/zumthor/stbenedict/stben (4).jpg" class="img-fluid">
+              <div class="centered"><h2>Peter Zumthor</h2> <p> Saint Benedict Chapel </p></div>
+              <a  class="centered AnimateHoverOutline" href="test.html"></a>
+            </div>
+
+            <div class="col-lg-3 col-md-5 col-sm-8">
+              <img  src="imgs/rcr/stantoni/stan (3).jpg" class="img-fluid">
+              <div class="centered"><h2>RCR Architects</h2> <p> Biblioteca Sant Antoni </p></div>
+              <a  class="centered AnimateHoverOutline" href="test.html"></a>
+            </div>
+
+            <div class="col-lg-3 col-md-5 col-sm-8">
+              <img  src="imgs/mumbai/copperhouse/cp (5).jpg" class="img-fluid">
+              <div class="centered"><h2>Studio Mumbai</h2> <p> Copper House </p></div>
+              <a  class="centered AnimateHoverOutline" href="test.html"></a>
+            </div>
+
+            <div class="col-lg-3 col-md-5 col-sm-8">
+              <img  src="imgs/mumbai/palihouse/ph (11).jpg" class="img-fluid">
+              <div class="centered"><h2>Studio Mumbai</h2> <p> House on Pali Hill </p></div>
+              <a  class="centered AnimateHoverOutline" href="test.html"></a>
+            </div>
+
+            <div class="col-lg-3 col-md-5 col-sm-8">
+              <img  src="imgs/mumbai/palihouse/ph (11).jpg" class="img-fluid">
+              <div class="centered"><h2>Studio Mumbai</h2> <p> House on Pali Hill </p></div>
+              <a  class="centered AnimateHoverOutline" href="test.html"></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- END OF CONTENT SECTION -->
+
+      <!-- FOOTER SECTION -->
+      <footer class="container-fluid">
+        <div id="PageFooter" class="containter"> <span id="FootInfo"> 2018 <span> </div>
+      </footer>
+
+
+
+    </div>
+    <script>
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+
+    </body>
+</html>
