@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> About</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <link href="index.css" rel="stylesheet" type="text/css">
+        <link href="running.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    </head>
+
+    <body id="MyBody">
+      <!-- HEADER contains TITLE and NAVBAR -->
+      <header class="container-fluid">
+        <div id="PageTitle" class="containter"> <span id="Title"> INFO <span> </div>
+
+        <nav id="NavBar" class="navbar navbar-expand-lg navbar-light justify-content-center">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="row collapse navbar-collapse" id="collapsingNavbar">
+              <div id="NavUL" class="container-fluid ">
+                  <ul class="navbar-nav mr-auto justify-content-center">
+                    <li class="nav-item active">
+                        <a class="nav-link AnimateHoverOutline" href="index.html">HOME</a>
+                    </li>
+                      <li class="nav-item active">
+                          <a class="nav-link AnimateHoverOutline" href="architecture.html">ARCHITECTURE</a>
+                      </li>
+                      <li class="nav-item active">
+                          <a class="nav-link AnimateHoverOutline" href="running.html">RUNNING</a>
+                      </li>
+                      <li class="nav-item active">
+                          <a class="nav-link AnimateHoverOutline" href="info.html">INFO</a>
+                      </li>
+                  </ul>
+                </div>
+            </div>
+      </nav>
+
+      </header>
+      <!-- HEADER END -->
+
+      <!-- A BIT ABOUT ARCHITECTURE SECTION -->
+      <div  id="IntroRunning" class="container-fluid">
+        <!-- <div id="Filter" class="container-fluid"> -->
+          <p class="AnimateHoverOutline">
+            Architecture is one of my big interests.
+            <br>This section will try to communicate a sense<br>
+            of what I perceive as "great architecture".</p>
+        <!-- </div> -->
+      </div>
+
+    <!-- A BIT ABOUT ARCHITECTURE SECTION -->
+      <div class="jumbotron jumbotron-fluid bg-white" style="padding:0;">
+        <div  id="Filter" class="container-fluid">
+            <p id="RunQuote"><br>How architecture touches us <br>
+              would be different for every individual <br>
+              as it will arise different memories, <br>
+              imagination and dream.<br><br>
+              <span> <b> Juhani Pallasma </b>- The eyes of the skin. </span></p>
+        </div>
+      </div>
+    <!-- A BIT ABOUT ARCHITECTURE SECTION -->
+
+    <!-- THE CONTENT SECTION -->
+      <div  class="container-fluid">
+        <div id="Content" class="container-fluid">
+          <div class="agenda">
+                  <div class="table-responsive">
+                      <table class="table table-condensed table-bordered">
+                          <thead>
+                              <tr>
+                                  <th>Date</th>
+                                  <th>Time</th>
+                                  <th>Event</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <!-- Single event in a single day -->
+                              <tr>
+                                  <td class="agenda-date" class="active" rowspan="1">
+                                      <div class="dayofmonth">26</div>
+                                      <div class="dayofweek">Saturday</div>
+                                      <div class="shortdate text-muted">July, 2014</div>
+                                  </td>
+                                  <td class="agenda-time">
+                                      5:30 AM
+                                  </td>
+                                  <td class="agenda-events">
+                                      <div class="agenda-event">
+                                          <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i> 
+                                          Fishing
+                                      </div>
+                                  </td>
+                              </tr>
+
+                              <!-- Multiple events in a single day (note the rowspan) -->
+                              <tr>
+                                  <td class="agenda-date" class="active" rowspan="3">
+                                      <div class="dayofmonth">24</div>
+                                      <div class="dayofweek">Thursday</div>
+                                      <div class="shortdate text-muted">July, 2014</div>
+                                  </td>
+                                  <td class="agenda-time">
+                                      8:00 - 9:00 AM
+                                  </td>
+                                  <td class="agenda-events">
+                                      <div class="agenda-event">
+                                          Doctor's Appointment
+                                      </div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td class="agenda-time">
+                                      10:15 AM - 12:00 PM
+                                  </td>
+                                  <td class="agenda-events">
+                                      <div class="agenda-event">
+                                          Meeting with executives
+                                      </div>
+                                  </td>
+                              </tr>
+                              <tr>
+                                  <td class="agenda-time">
+                                      7:00 - 9:00 PM
+                                  </td>
+                                  <td class="agenda-events">
+                                      <div class="agenda-event">
+                                          Aria's dance recital
+                                      </div>
+                                  </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+            </div>
+
+        </div>
+      </div>
+      <!-- END OF CONTENT SECTION -->
+
+      <!-- FOOTER SECTION -->
+      <footer class="container-fluid">
+        <div id="PageFooter" class="containter"> <span id="FootInfo"> 2018 <span> </div>
+      </footer>
+
+
+
+    </div>
+
+    </body>
+</html>
